@@ -19,7 +19,6 @@
     bottom: 0;
     width: 80px;
     right: -80px;
-    left: 120px;
     animation: pipe-animation 1.5s infinite linear;
 }
 
@@ -33,7 +32,7 @@
     animation: jump 500ms ease-out;
 }
 
-.jumps {
+.clouds {
     position: absolute;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
@@ -41,11 +40,11 @@
 
 @keyframes pipe-animation {
     from {
-        right: 0;
+        right: -80px;
     }
 
     to {
-        rigt: 100;
+        right: 100%;
     }
     
 }
@@ -79,7 +78,7 @@
     }
 
     to{
-        rigth: 100%;
+        right: 100%;
     }
 }
 
