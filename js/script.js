@@ -12,8 +12,8 @@ const jump = () => {
 }
 
 const loop = setInterval(() => {
-    
-    console.log('loop')
+    //Essa linha pega a posicao atual do mario//
+    console.log('loop'+mario.offsetLeft)
 
     const pipePosition = pipe.offsetLeft;
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '');
