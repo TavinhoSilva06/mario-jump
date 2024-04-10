@@ -53,7 +53,6 @@ function startup() {
 }
 
 function tocounatela(evt) {
-    evt.preventDefault();
     pulo();
 }
 
