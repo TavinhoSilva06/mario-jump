@@ -41,9 +41,9 @@ document.addEventListener('keydown', pulo);
 function startup() {
     console.log("Entrou no mario");
 //Chama um elemento "document" que seria todo o conteúdo do meu HTML, 
-//e chama a função "querySelector", na qual pega um elemento que contém a classe ("game-board")
+//e chama a função "querySelector", na qual pega um elemento que contém a classe ("game-html")
 //E atribui o que foi encontrado a uma variável chamda "el"
-    var el = document.querySelector(".game-board");
+    var el = document.querySelector(".game-html");
     console.log("Valor da variavel el", el);
 //adiciona a variável "el", logo chamando a função "addEventListener", na qual nomeia o nome "touchstart"
 //e chama outra função chamada "tocounatela", o que com tudo isso, o jogo vai reconhecer o toque do dedo
